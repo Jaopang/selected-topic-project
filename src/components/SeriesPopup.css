@@ -1,0 +1,45 @@
+.series-popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.series-popup-bg {
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.series-popup-content{
+    position: relative;
+    max-width: 1000px;
+    background-color: rgb(158, 181, 184);
+
+}
+
+.series-popup-content img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 120px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.series-popup-content h4 {
+    color: white;
+    text-align: center;
+}
+.series-popup-content h6 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
